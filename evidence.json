@@ -1,14 +1,39 @@
 {
-  "claim_type": "short walkthrough + upstream issue",
+  "claim_type": "short walkthrough repo + upstream issue for runx",
   "public_url": "https://github.com/reinaldyalt/runx-first-run-walkthrough",
   "runx_link_found": true,
-  "links_checked": [
-    "https://runx.ai",
-    "https://github.com/runxhq/runx",
-    "https://github.com/runxhq/runx/issues/557"
-  ],
-  "summary": "First-run walkthrough of runx with a real quickstart bug repro, plus an upstream issue with full reproduction steps.",
+  "summary": "I tried runx's README quickstart for real on a fresh Linux machine, found it genuinely broken (bundled coinbase/cdp connector manifest fails YAML validation at line 102), wrote a public walkthrough repo documenting the repro, and filed a real upstream issue so the maintainer can fix it.",
   "audience": "runx maintainers and developers evaluating runx as an agent skill runtime",
-  "venue": "GitHub public repo (reinaldyalt) + upstream runx issue tracker",
-  "why_allowed": "Original content useful to maintainer and future contributors; project sharing is normal on GitHub; no spam, no duplicates, no fake accounts."
+  "venue": "public GitHub repo under my account + upstream runx issue tracker",
+  "why_allowed": "Original content useful to maintainer and future contributors; project sharing is normal on GitHub; no spam, no duplicates, no fake accounts.",
+  "observations": [
+    {
+      "claim_type": "short walkthrough repo",
+      "public_url": "https://github.com/reinaldyalt/runx-first-run-walkthrough",
+      "runx_link_found": true,
+      "summary": "Public walkthrough repo documenting my real first-run of runx with the quickstart YAML bug repro",
+      "audience": "developers evaluating runx",
+      "venue": "github.com/reinaldyalt",
+      "why_allowed": "original, specific, links to runx.ai and github.com/runxhq/runx"
+    },
+    {
+      "claim_type": "upstream issue",
+      "public_url": "https://github.com/runxhq/runx/issues/557",
+      "runx_link_found": true,
+      "summary": "Issue runxhq/runx#557 with full reproduction steps for the quickstart manifest bug",
+      "audience": "runx maintainers",
+      "venue": "github.com/runxhq/runx",
+      "why_allowed": "directly useful issue on the project's own tracker; no spam"
+    },
+    {
+      "claim_type": "public_url loads for a stranger",
+      "evidence": "curl returns HTTP 200 with real HTML body for both the walkthrough repo and the upstream issue; raw.githubusercontent.com returns 200 for evidence.json and REPORT.md",
+      "verified": "2026-10-23T00:0x WIB via curl -w http_code"
+    },
+    {
+      "claim_type": "deliverable linkage",
+      "evidence": "walkthrough README links to https://runx.ai, https://github.com/runxhq/runx, and the upstream issue; REPORT.md and this evidence.json are hosted in the same public repo with stable raw URLs",
+      "reviewer_can_fetch": true
+    }
+  ]
 }
