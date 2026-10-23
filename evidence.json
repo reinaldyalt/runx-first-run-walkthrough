@@ -1,0 +1,14 @@
+{
+  "claim_type": "short walkthrough + upstream issue",
+  "public_url": "https://github.com/reinaldyalt/runx-first-run-walkthrough",
+  "runx_link_found": true,
+  "links_checked": [
+    "https://runx.ai",
+    "https://github.com/runxhq/runx",
+    "https://github.com/runxhq/runx/issues/557"
+  ],
+  "summary": "First-run walkthrough of runx with a real quickstart bug repro, plus an upstream issue with full reproduction steps.",
+  "audience": "runx maintainers and developers evaluating runx as an agent skill runtime",
+  "venue": "GitHub public repo (reinaldyalt) + upstream runx issue tracker",
+  "why_allowed": "Original content useful to maintainer and future contributors; project sharing is normal on GitHub; no spam, no duplicates, no fake accounts."
+}
